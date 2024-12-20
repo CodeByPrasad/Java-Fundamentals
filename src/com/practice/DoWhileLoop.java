@@ -1,11 +1,13 @@
 package com.practice;
 
-public class ForLoop {
-
+public class DoWhileLoop {
     public static void main(String[] args){
-        int n = 10;
-        for (int i = 0; i<n; i++){
+
+        int i = 5;
+        do {
             System.out.println(i);
-        }
+            i--;
+        } while (i>3);
+
     }
 }
