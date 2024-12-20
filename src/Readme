@@ -1,1 +1,9 @@
 # Java Fundamentals
+Java Switch Statements:
+--Switch statements are used to avoid nested if else;
+--Switch Statement is executes the case which matches the expression
+--there is break and default keywords in switch statement
+--break is used to breaks out from the switch statements
+--defualt is used for executes the default statements if there is no match found to expression
+--if expression matched to one of the case then it will executes the block of code of that case and breaks the execution of switch statements
+--if break is not given then all of the cases are executes after matched expression until the break.
