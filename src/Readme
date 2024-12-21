@@ -7,3 +7,18 @@ Java Switch Statements:
 --defualt is used for executes the default statements if there is no match found to expression
 --if expression matched to one of the case then it will executes the block of code of that case and breaks the execution of switch statements
 --if break is not given then all of the cases are executes after matched expression until the break.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Java Arrays:-
+--Arrays are used to store multiple values in a single variable
+--instead of declaring separate variables for each value.
+--To declare an array, define the variable type with square brackets:
+
+Syntax For declare array-
+String[] cars;
+
+--We have now declared a variable that holds an array of strings.
+--To insert values to it you can place the values in a comma-separated list, inside curly braces.
+--Ex:-
+      String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
