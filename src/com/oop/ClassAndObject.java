@@ -1,6 +1,6 @@
 package com.oop;
 
-public class ClassAndObject {                       // Main class
+public class ClassAndObject {                       // com.practice.Main class
 void display(){                                     //class method
     System.out.println("This is class method");
 }
