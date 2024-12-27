@@ -52,14 +52,18 @@ public class PrimeNumber {
 
             //Prime number
 
-            Scanner input = new Scanner(System.in);
-            System.out.println("Enter number: ");
-            int num = input.nextInt();
-            if (isPrime(num)){3
-                System.out.println(num + " is prime number");
-            } else {
-                System.out.println(num + " is not prime number");
+//            Scanner input = new Scanner(System.in);
+//            System.out.println("Enter number: ");
+//            int num = input.nextInt();
+            int arr[] = {1,2,3,54,6,5};
+            for (int i = 0; i< arr.length; i++){
+                if (isPrime(arr[i])){
+                    System.out.println(arr[i] + " is prime number");
+                } else {
+                    System.out.println(arr[i] + " is not prime number");
+                }
             }
+
    }
     public static boolean isPrime(int n) {
         if (n <= 1) {
