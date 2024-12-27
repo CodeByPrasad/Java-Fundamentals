@@ -18,7 +18,7 @@ class Two extends One{
     }
     int y = 4;
 }
-   class Prasad {
+   class MultilevelCaller {
     public static void main(String[] args){
         Two obj = new Two();
         obj.parentDisplay();
