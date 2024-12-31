@@ -163,3 +163,34 @@ The Set Interface is present in java.util package and extends the Collection int
 
 --------------------------------------------------------------------------
 
+**There are 3 main types of Set:**
+1) HashSet
+2) LinkedHashSet
+3) TreeSet
+
+**HashSet:**
+--HashSet in Java implements the Set interface of Collections Framework. It is used to store the unique elements and it doesn’t maintain any specific order of elements.
+
+--Can store the Null values.
+--Uses HashMap (implementation of hash table data structure) internally.
+--Also implements Serializable and Cloneable interfaces.
+--HashSet is not thread-safe. So to make it thread-safe, synchronization needed externally.
+
+--------------------------------------------------------
+LinkedHashSet:
+LinkedHashSet in Java implements the Set interface of the Collection Framework. It combines the functionality of a HashSet with a LinkedList to maintain the insertion order of elements.
+
+Stores unique elements only.
+Maintains insertion order.
+Provides faster iteration compared to HashSet.
+Allows null elements.
+--------------------------------------------------------------------------
+
+**TreeSet:**
+-TreeSet is one of the most important implementations of the SortedSet interface in Java that uses a Tree(red – black tree) for storage. The ordering of the elements is maintained by a set using their natural ordering whether or not an explicit comparator is provided. This must be consistent with equals if it is to correctly implement the Set interface.
+
+TreeSet does not allow duplicate elements. Any attempt to add a duplicate element will be ignored.
+It doesn’t allow null values and throws NullPointerException null element is inserted in it.
+
+------------------------------------------------------------------------------
+
