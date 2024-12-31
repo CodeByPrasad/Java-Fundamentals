@@ -7,7 +7,7 @@ import java.util.Set;
 public class Hashset {
     public static void main(String[] args){
 
-        Set<String> hs = new HashSet<>();
+        HashSet<String> hs = new HashSet<>();
 
         hs.add("Prasad");
         System.out.println(hs);

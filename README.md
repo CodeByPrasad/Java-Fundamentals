@@ -194,3 +194,30 @@ It doesn’t allow null values and throws NullPointerException null element is i
 
 ------------------------------------------------------------------------------
 
+**Map interface:**
+In Java, Map Interface is present in the java.util package represents a mapping between a key and a value. Java Map interface is not a subtype of the Collection interface. Therefore it behaves a bit differently from the rest of the collection types.
+
+No Duplicates in Keys: Ensures that keys are unique. However, values can be duplicated.
+
+------------------------------------------------------------------------------
+There are 3 types of classes that implements the map interface
+1) HashMap
+2) LinkedHashMap
+3) TreeMap
+
+------------------------------------------------------------------------
+
+**HashMap:**
+In Java, HashMap is part of the Java Collections Framework and is found in the java.util package. It provides the basic implementation of the Map interface in Java. HashMap stores data in (key, value) pairs. Each key is associated with a value, and you can access the value by using the corresponding key.
+
+Internally uses Hashing (similar to Hashtable in Java).
+Not Synchronized (unlike Hashtable in Java) and hence faster for most of the cases.
+Allows to store the null keys as well, but there should be only one null key object and there can be any number of null values.
+Duplicate Elements not allowed in HashMap, if you try to insert the duplicate key in HashMap, it will replace the element of the corresponding key.
+HashMap uses keys in same way as Array uses index.
+HashMap allows for efficient key-based retrieval, insertion, and removal with average O(1) time complexity.
+
+-------------------------------------------------------------------
+
+
+
