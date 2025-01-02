@@ -219,5 +219,89 @@ HashMap allows for efficient key-based retrieval, insertion, and removal with av
 
 -------------------------------------------------------------------
 
+**Linked hashMap**
+LinkedHashMap in Java implements the Map interface of the Collections Framework. It stores key-value pairs while maintaining the insertion order of the entries. It maintains the order in which elements are added.
+
+Stores unique key-value pairs.
+Maintains insertion order.
+Allows one null key and multiple null values.
+Fast performance for basic operations.
+--------------------------------------------------------
+
+Exception Handling in java
+
+What is exception Handling?
+Exception Handling in Java is a mechanism to handle runtime errors and maintain the normal flow of a program. It allows developers to detect and respond to exceptional conditions (such as invalid user input, file not found, or divide by zero) without crashing the application.
+-------------------------------------------
+
+Types of exception 
+
+1) User defined exception
+2) Built in exception
+
+-------------------------------------
+Exception:
+
+An exception is an event that disrupts the normal flow of the program.
+Examples: ArithmeticException, NullPointerException, IOException.
+-----------------------------------------------
+
+Error:
+
+Errors are serious issues that are typically not handled by the program.
+Examples: OutOfMemoryError, StackOverflowError.
+----------------------------------------------------------
+
+Throwable:
+
+The superclass of all exceptions and errors in Java.
+It has two main subclasses:
+Exception (checked exceptions).
+Error (unchecked errors).
+----------------------------------------------------
 
 
+1. Built-in Exceptions:-
+--Built-in exceptions are the exceptions that are available in Java libraries. These exceptions are suitable to explain certain error situations.
+--Types:-
+1) Checked Exception
+2) Unchecked Exception
+
+
+Checked Exceptions: Checked exceptions are called compile-time exceptions because these exceptions are checked at compile-time by the compiler.
+
+Unchecked Exceptions: The unchecked exceptions are just opposite to the checked exceptions. The compiler will not check these exceptions at compile time. In simple words, if a program throws an unchecked exception, and even if we didn’t handle or declare it, the program would not give a compilation error.
+-----------------------------------------------------
+
+
+2. User-Defined Exceptions:
+   Sometimes, the built-in exceptions in Java are not able to describe a certain situation. In such cases, users can also create exceptions, which are called ‘user-defined Exceptions’. 
+------------------------------------------------------------------------------
+
+--Exception Handling Keywords:
+1) try:
+Contains the code that might throw an exception.
+
+2) catch:
+Used to handle the exception.
+
+3) finally:
+Contains code that is always executed, regardless of whether an exception occurred or not.
+
+4) throw:
+Used to explicitly throw an exception.
+
+5) throws:
+Declares exceptions that a method might throw.
+
+---------------------------------------------------------
+
+Exception printing methods:
+1) printStackTrace(): name|description|stack trace
+   This method prints exception information in the format of the Name of the exception: description of the exception, stack trace.
+
+2) toString(): name| description
+   The toString() method prints exception information in the format of the Name of the exception: description of the exception.
+
+3) getMessage(): only description 
+    The getMessage() method prints only the description of the exception.
