@@ -16,8 +16,9 @@ package com.Multithreading;
         }
     }
 }
-
-class MainThread {
+ 
+class
+MainThread {
     public static void main(String[] args) {
         Task1 thread1 = new Task1();
         Task2 thread2 = new Task2();
